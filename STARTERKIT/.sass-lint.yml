@@ -58,7 +58,7 @@ rules:
   no-qualifying-elements: 0
   no-trailing-whitespace: 2
   no-trailing-zero: 2
-  no-transition-all: 2
+  no-transition-all: 0
   no-universal-selectors: 0
   no-url-protocols: 2
   no-vendor-prefixes: 2
@@ -102,7 +102,7 @@ rules:
     - 2
     - max-depth: 4
   property-sort-order: 0
-  pseudo-element: 0
+  pseudo-element: 1
   quotes: 2
   shorthand-values: 2
   url-quotes: 2

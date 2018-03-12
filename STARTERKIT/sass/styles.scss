@@ -34,9 +34,7 @@
 // and are not documented.
 //
 // Style guide: layouts
-@import 'layouts/layout-3col/layout-3col';
-@import 'layouts/layout-center/layout-center';
-@import 'layouts/layout-swap/layout-swap';
+@import 'layouts/layouts';
 
 // Components
 //
@@ -57,8 +55,8 @@
 @import 'components/highlight-mark/highlight-mark';
 @import 'components/inline-links/inline-links';
 @import 'components/inline-sibling/inline-sibling';
+@import 'components/list-straight-left/list-straight-left';
 @import 'components/messages/messages';
-@import 'components/print-none/print-none';
 @import 'components/responsive-video/responsive-video';
 @import 'components/visually-hidden/visually-hidden';
 @import 'components/watermark/watermark';
@@ -77,6 +75,7 @@
 @import 'navigation/more-link/more-link';
 @import 'navigation/nav-menu/nav-menu';
 @import 'navigation/navbar/navbar';
+@import 'navigation/mobile/mobile';
 @import 'navigation/pager/pager';
 @import 'navigation/skip-link/skip-link';
 @import 'navigation/tabs/tabs';

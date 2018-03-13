@@ -8,7 +8,7 @@
  */
 ?>
 <?php if ($content): ?>
-  <footer class="footer <?php print $classes; ?>" role="contentinfo">
+  <footer class="footer layout__footer <?php print $classes; ?>" role="contentinfo">
     <?php print $content; ?>
   </footer>
 <?php endif; ?>
